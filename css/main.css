@@ -66,6 +66,33 @@ body{
   .fa-css3-alt{color: #002561;}
   .fa-js{color: #f7df1e;}
   .fa-php{color: #4f5b93;}
+
+  .footer {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer p {
+    align-self: center;
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .footer p a{
+      color: white;
+  }
+  
+  .created {
+    font-size: 1em;
+  }
+  
+  .copyright {
+    
+    font-size: .8em;
+  } 
   
   @media screen and (max-width: 900px){
     .centered{
