@@ -6,14 +6,18 @@
 
 body{
     background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
-    padding-top: 100px;
+    padding-top: 35px;
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
   }
   
   h1 {
       letter-spacing: 2px;
-      font-size: 72px;
+      font-size: 42px;
       color: #eef2f3;
+      padding-bottom: 35px;
+      text-transform: uppercase;
+      font-weight: 400;
   }
 
   .text-center {
@@ -26,6 +30,7 @@ body{
     display: inline-block;
     overflow: hidden;
     position: relative;
+    border-radius: 25px;
   }
   .pj-card img{
     object-fit: cover;
@@ -60,12 +65,13 @@ body{
   .fa-php{color: #4f5b93;}
 
   .footer {
-    background-color: black;
+    background-color: #203A43;
     height: 60px;
     display: flex;
     justify-content: space-between;
+    margin-top: 35px;
   }
-  
+
   .footer p {
     align-self: center;
     margin: 0 auto;
